@@ -10,7 +10,7 @@ body {
     background: linear-gradient(90deg, #383838 0%, #000000 81.25%);
 }
 
-#box {
+.box {
     background: #ffffff;
     width: 541px;
     height: 498px;
@@ -31,7 +31,7 @@ input:focus {
     border-color: #8052ec;
 }
 
-#botão-adicionar {
+.additional-button {
     background: #8052ec;
     border-radius: 5px;
     border: none;
@@ -44,21 +44,21 @@ input:focus {
     float: right;
 }
 
-#botão-adicionar:hover {
+.additional-button:hover {
     opacity: 0.8;
 }
 
-#botão-adicionar:active {
+.additional-button:active {
     opacity: 0.6;
 }
 
-#tarefas {
+.tasks {
     width: 100%;
     list-style: none;
     margin-top: 60px;
 }
 
-.intens-de-tarefas {
+.to-do-items {
     background: #f2f2f2;
     box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -68,7 +68,7 @@ input:focus {
     margin-top: 30px;
 }
 
-.botão-do-foguete {
+.rocket-button {
     border: none;
     background: transparent;
     position: absolute;
@@ -85,17 +85,17 @@ input:focus {
     color: #4f0fc5;
 }
 
-.intens-de-tarefas:hover .botão-do-foguete {
+.to-do-items:hover .rocket-button {
     opacity: 1;
 }
 
-.nome-da-tarefa {
+.task-name {
     color: #000000;
     font-size: 15px;
     line-height: 18px;
 }
 
-.botão-da-lixeira {
+.trash-can-button {
     border: none;
     background: transparent;
     position: absolute;
@@ -112,6 +112,6 @@ input:focus {
     color: #ff0000;
 }
 
-.intens-de-tarefas:hover .botão-da-lixeira {
+.to-do-items:hover .trash-can-button {
     opacity: 1;
 }
